@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://zippy-duckanoo-e1f152.netlify.app/")
 @RequestMapping("/api")
 public class EmployeeController {
     @Autowired
